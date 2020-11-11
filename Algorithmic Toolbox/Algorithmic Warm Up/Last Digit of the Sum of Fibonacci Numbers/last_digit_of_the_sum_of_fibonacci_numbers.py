@@ -21,14 +21,15 @@ def last_digit_of_the_sum_of_fibonacci_numbers(n):
 
     if n <= 1:
         return n
+    n = n % 60
+    if n == 0:
+        return 0
     prev, curr, = 0, 1
-    remainder = n % 60
-    if remainder == 0:
-
     count = 1
     for i in range(2, n + 1):
         prev, curr = curr, (prev + curr) % 10
         count += curr
+        count %= 10
     return count
 
 
