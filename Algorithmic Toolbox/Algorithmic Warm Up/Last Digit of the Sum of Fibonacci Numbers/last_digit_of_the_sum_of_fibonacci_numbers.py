@@ -19,7 +19,14 @@ def last_digit_of_the_sum_of_fibonacci_numbers_naive(n):
 def last_digit_of_the_sum_of_fibonacci_numbers(n):
     assert 0 <= n <= 10 ** 18
 
-    type here
+    if n <= 1:
+        return n
+    prev, curr, = 0, 1
+    count = 1
+    for i in range(2, n + 1):
+        prev, curr = curr, (prev + curr) % 10
+        count += curr
+    return count
 
 
 if __name__ == '__main__':
