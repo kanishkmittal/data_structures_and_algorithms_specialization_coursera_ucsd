@@ -10,7 +10,10 @@ def maximum_loot_value(capacity, weights, prices):
     assert all(0 < w <= 2 * 10 ** 6 for w in weights)
     assert all(0 <= p <= 2 * 10 ** 6 for p in prices)
 
-    type here
+    loot = 0
+    unit_price = weights/prices
+    master_array = [unit_price, weights, prices]
+    sorted(master_array, key = lambda master_array = master_array[1])
 
 
 if __name__ == "__main__":
