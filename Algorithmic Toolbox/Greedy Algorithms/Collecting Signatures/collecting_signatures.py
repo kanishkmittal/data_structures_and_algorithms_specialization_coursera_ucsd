@@ -7,7 +7,7 @@ Segment = namedtuple('Segment', 'start end')
 
 
 def compute_optimal_points(segments):
-    type here
+    return segments
 
 
 if __name__ == '__main__':
