@@ -4,12 +4,13 @@ import math
 def compute_optimal_summands(n):
     assert 1 <= n <= 10 ** 9
     summands = []
-    i = 0
+    i = 1
     while n > 0:
-        summands.append[i]
+        summands.append(i)
         n -= i
         i += 1
         if n < i:
+            summands[-1] = summands[-1] + n
             return summands
 
 
