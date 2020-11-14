@@ -1,13 +1,18 @@
 # python3
-
+import math
 
 def compute_optimal_summands(n):
     assert 1 <= n <= 10 ** 9
     summands = []
+    i = 0
+    while n > 0:
+        summands.append[i]
+        n -= i
+        i += 1
+        if n < i:
+            return summands
 
-    type here
 
-    return summands
 
 
 if __name__ == '__main__':
