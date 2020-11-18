@@ -7,20 +7,20 @@ class TestBinarySearch(unittest.TestCase):
         for (keys, query) in [
             ([1, 2, 3], 1),
             ([4, 5, 6], 7),
-            type here
+            ([1, 3, 4, 6, 8], 6)
         ]:
             self.assertEqual(
                 linear_search(keys, query),
-                binary_search(keys, query)
+                binary_search(keys, 0, len(keys) - 1, query)
             )
 
     def test_large(self):
         for (keys, query, answer) in [
             (list(range(10 ** 4)), 10 ** 4, -1),
-            type here
+            (list(range(10 ** 4)), 500.1, -1),
             (list(range(10 ** 4)), 239, 239),
         ]:
-            self.assertEqual(binary_search(keys, query), answer)
+            self.assertEqual(binary_search(keys, 0, len(keys) - 1, query), answer)
 
 
 if __name__ == '__main__':
