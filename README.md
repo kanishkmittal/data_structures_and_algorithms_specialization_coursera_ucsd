@@ -20,6 +20,7 @@ This repository contains my solutions to the exercises from the Data Structures 
 <li><a href="/Algorithmic%20Toolbox/Algorithmic%20Warm%20Up/Last%20Digit%20of%20the%20Sum%20of%20Squares%20of%20Fibonacci%20Numbers/last_digit_of_the_sum_of_squares_of_fibonacci_numbers.py" target="_blank">Last Digit of the Sum of Squares of Fibonacci Numbers</a></li></ul>
 </details>
 
+<details>
 <summary> Week 3 - Greedy Algorithms</summary>
 <ul><li><a href="/Algorithmic%20Toolbox/Greedy%20Algorithms/Money%20Change/money_change.py" target="_blank">Money Change</a></li>
 <li><a href="/Algorithmic%20Toolbox/Greedy%20Algorithms/Maximum%20Value%20of%20the%20Loot/maximum_loot.py" target="_blank">Maximum Value of the Loot</a></li>
