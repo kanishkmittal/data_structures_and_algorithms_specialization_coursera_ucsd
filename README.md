@@ -31,5 +31,14 @@ This repository contains my solutions to the exercises from the Data Structures 
 <li><a href="/Algorithmic%20Toolbox/Greedy%20Algorithms/Maximum%20Salary/maximum_salary.py" target="_blank">Maximum Salary</a></li></ul>
 </details>
 
+<details>
+<summary> Week 4 - Divide and Conquer</summary>
+<ul><li><a href="" target="_blank">Binary Search</a></li>
+<li><a href="" target="_blank">Majority Element</a></li>
+<li><a href="" target="_blank">Improving Quick Sort</a></li>
+<li><a href="" target="_blank">Number of Inversions</a></li>
+<li><a href="" target="_blank">Organizing a Lottery</a></li>
+<li><a href="" target="_blank">Closest Points</a></li></ul>
+</details>
 
 
