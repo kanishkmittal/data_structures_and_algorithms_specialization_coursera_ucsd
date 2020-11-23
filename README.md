@@ -33,12 +33,12 @@ This repository contains my solutions to the exercises from the Data Structures 
 
 <details>
 <summary> Week 4 - Divide and Conquer</summary>
-<ul><li><a href="" target="_blank">Binary Search</a></li>
-<li><a href="" target="_blank">Majority Element</a></li>
-<li><a href="" target="_blank">Improving Quick Sort</a></li>
-<li><a href="" target="_blank">Number of Inversions</a></li>
-<li><a href="" target="_blank">Organizing a Lottery</a></li>
-<li><a href="" target="_blank">Closest Points</a></li></ul>
+<ul><li><a href="/Algorithmic%20Toolbox/Divide-and-Conquer/Binary%20Search/binary_search.py" target="_blank">Binary Search</a></li>
+<li><a href="/Algorithmic%20Toolbox/Divide-and-Conquer/Majority%20Element/majority_element.py" target="_blank">Majority Element</a></li>
+<li><a href="/Algorithmic%20Toolbox/Divide-and-Conquer/Improving%20QuickSort/quicksort.py" target="_blank">Improving Quick Sort</a></li>
+<li><a href="/Algorithmic%20Toolbox/Divide-and-Conquer/Number%20of%20Inversions/number_of_inversions.py" target="_blank">Number of Inversions</a></li>
+<li><a href="/Algorithmic%20Toolbox/Divide-and-Conquer/Organizing%20a%20Lottery/organizing_lottery.py" target="_blank">Organizing a Lottery</a></li>
+<li><a href="/Algorithmic%20Toolbox/Divide-and-Conquer/Closest%20Points/closest_points.py" target="_blank">Closest Points</a></li></ul>
 </details>
 
 
