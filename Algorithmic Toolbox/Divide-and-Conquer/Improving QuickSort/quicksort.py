@@ -4,7 +4,13 @@ from random import randint
 
 
 def partition3(array, left, right):
-    type here
+    elem = array[left]
+    lesser = left
+    greater = left + 1
+
+    for i in range(left + 1, right + 1):
+        if array[i] < elem:
+            array.insert(left, array.pop(i))
 
 
 def randomized_quick_sort(array, left, right):
