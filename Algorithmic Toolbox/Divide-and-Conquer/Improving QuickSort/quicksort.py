@@ -3,23 +3,32 @@
 from random import randint
 
 
-def partition3(array, left, right):
-    elem = array[left]
-    lesser = left
-    greater = left + 1
+def partition3(a, left, right):
+    elem = a[left]
+    left_count = i = left
+    right_count = right
+    while i <= right_count:
+        if a[i] < elem:
+            a[i], a[left_count] = a[left_count], a[i]
+            left_count += 1
+            i += 1
+        elif a[i] == elem:
+            i += 1
+        else:
+            a[i], a[right_count] = a[right_count], a[i]
+            right_count -= 1
+    return left_count, right_count
 
-    for i in range(left + 1, right + 1):
-        if array[i] < elem:
-            array.insert(left, array.pop(i))
 
-
-def randomized_quick_sort(array, left, right):
+def randomized_quick_sort(a, left, right):
     if left >= right:
         return
-    k = randint(left, right)
-    array[left], array[k] = array[k], array[left]
-    make a call to partition3 and then two recursive calls 
-to randomized_quick_sort
+    pivot = randint(left, right)
+    a[left], a[pivot] = a[pivot], a[left]
+    l, r = partition3(a, left, right)
+    randomized_quick_sort(a, left, l - 1)
+    randomized_quick_sort(a, r + 1, right)
+
 
 
 if __name__ == '__main__':
